@@ -36,6 +36,7 @@ nav div {
 input {
 	background-color: rgba(255, 255, 255, .3);
 	padding: 20px;
+	padding-left: 60px;
 	border-radius: 10px;
 	font-family: 'Inter';
 	font-size: 18px;
@@ -44,8 +45,27 @@ input {
 	color: rgba(255, 255, 255, 0.8);
 }
 
+input:focus {
+	outline: 1px solid rgba(255, 255, 255, 0.6);
+}
+
 input::placeholder {
 	color: rgba(255, 255, 255, 0.5);
+	margin-left: 30px;
+}
+
+button {
+	background-image: url(icons/search.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	position: relative;
+	bottom: 45px;
+	left: 20px;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
 }
 
 main {
