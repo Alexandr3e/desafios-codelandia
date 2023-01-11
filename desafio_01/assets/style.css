@@ -65,6 +65,18 @@ section {
 	margin: 0 20px 50px 20px;
 }
 
+.date-icon {
+	display: flex;
+	justify-content: space-between;
+}
+
+.heart-icon {
+	background-image: url(https://raw.githubusercontent.com/Alexandr3e/desafios-codelandia/main/desafio_01/assets/icons/heart.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 30px;
+}
+
 span {
 	color: #717171;
 }
