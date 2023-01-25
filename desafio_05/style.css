@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
+	height: 100vh;
+	color: white;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	width: 1200px;
+	margin-bottom: 70px;
+}
+
+.social-menu {
+	display: flex;
+	gap: 25px;
+	list-style: none;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 1200px;
+}
+
+.container-left {
+	width: 430px;
+}
+
+.director {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 68px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.resume {
+	margin-bottom: 50px;
+	line-height: 2rem;
+}
+
+.watch-now, .watch-trailer{
+	background: #658e76;
+  border: 2px solid #658e76;
+	color: #fff;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  /*responsável por inclinar o botão*/
+  transform: skew(-24deg);
+}
+
+.button-text {
+	/*responsável por deixar o texto alinhado*/
+	transform: skew(24deg);
+  font-weight: 500;
+}
+
+.watch-now:hover, .watch-trailer:hover {
+	background-color: #1A4855;
+	border: 2px solid #1A4855;
+}
+
+.watch-trailer {
+	background-color: transparent;
+}
